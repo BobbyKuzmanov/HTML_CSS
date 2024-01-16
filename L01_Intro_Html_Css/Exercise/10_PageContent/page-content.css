@@ -1,0 +1,15 @@
+body{
+    background-color: #CCCCCC;
+}
+
+section p{
+    font-size: 20px;
+}
+
+article p{
+    font-style: italic;
+}
+
+article h1{
+    font-size: 24px;
+}
