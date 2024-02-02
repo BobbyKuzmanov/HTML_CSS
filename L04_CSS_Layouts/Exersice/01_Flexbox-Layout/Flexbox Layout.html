@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Layout</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            padding: 2em;
+            background: #eee;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        body > *{
+            background: #fff;
+            padding: 1em;
+            box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+            border-radius: 0.3em;
+            text-transform: uppercase;
+        }
+
+        body >header,
+        body >footer{
+            flex:1 0 100%;
+        }
+
+        body >aside,
+        body >main{
+            min-height: 300px;
+        }
+        body > main{
+            flex: 1 0 60%;
+        }
+
+        body > aside{
+            flex: 1 1 auto;
+        }
+    </style>
+
+</head>
+<body>
+        <header>
+            <p>Header</p>
+        </header>
+
+        <main>
+            <p>Main</p>
+        </main>
+
+        <aside>
+            <p>Aside</p>
+        </aside>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+</body>
+</html>
