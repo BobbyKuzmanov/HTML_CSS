@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>United States</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html{
+            margin: 0;
+            height: 100%;
+        }
+        
+        body{
+            font: 16px/1.5 'Agbalumo', sans-serif;
+            display: flex;
+            flex-direction: column;
+            max-height: max-content;
+            min-height: 100vh;
+            
+        }
+        
+        header{
+            background-color: #D5EBEA;
+            padding: 1.5em;
+            text-align: center;
+        }
+        
+        main{
+            background-color: white;
+            padding: 1.5em;
+            display: flex;
+            gap: 2em;
+        }
+        
+        footer{
+            background-color: #D5EBEA;
+            padding: 1.5em;
+            font-size: 18px;
+        }
+        .photo{
+            border: 2px black solid;
+            padding: 0.5em ;
+            
+        }
+        .description p{
+            display: flex;
+            flex-direction: column;
+            flex: 0  auto;
+            font-size: 1.9vw;
+            padding: 1em 0.2em;
+        }
+        .photo img{
+            max-width: 100%;
+        }
+        header h1 {
+            border-bottom:  2px solid black;
+        }
+
+        header h3 {
+            border-bottom:  2px solid black;
+        }
+        .facts-title h3 {
+            display: inline-block;
+            background-color: black;
+            color: white;
+            padding: 0 3em;
+            font-size: 24px;
+        }
+        footer p{
+            padding-bottom: 1em;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>United States</h1>
+        <h3>Country</h3>
+    </header>
+    
+    <main>
+            <section class="photo">
+                <img src="images/map.webp" alt="">
+                <p> The USA Map highlights the country's boundaries, states,
+                    and important cities. The map also includes major rivers,
+                    lakes, mountain ranges, national parks, and popular tourist
+                    attractions such as the Statue of Liberty, the Golden Gate
+                    Bridge, and Niagara Falls.
+                </p>
+            </section>
+            <section class="description">
+                <p>
+                The United States of America (USA), is a country primarily located
+                in North America and consisting of 50 states, a federal district,
+                five major unincorporated territories, and nine Minor Outlying
+                Islands. It includes 326 Indian reservations. It is the world's
+                third-largest country by both land and total area.
+                </p>
+                <p>
+                    It shares land borders with Canada to its north and with Mexico to
+                    its south and has maritime borders with the Bahamas, Cuba, Russia,
+                    and other nations. The national capital of the United States is
+                    Washington, D.C., and its most populous city and principal financial
+                    center is New York City.
+                </p>
+            </section>
+        
+    </main>
+    <section class="facts-title">
+        <h3>Facts about United States</h3>
+    </section>
+    <footer>
+        
+        
+        <p>Population:<span>333,287,557 (2022)</span> </p>
+        <p>Area:<span>9,833,520 km2</span> </p>
+        <p>Capital:<span>Washington, D.C.</span> </p>
+        <p>Government:<span>Federal presidential constitutional republic</span> </p>
+    </footer>
+</body>
+</html>
