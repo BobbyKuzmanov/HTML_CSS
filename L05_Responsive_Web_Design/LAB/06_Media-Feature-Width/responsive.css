@@ -1,0 +1,23 @@
+@media screen{
+    article {
+        width: 360px;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 35rem)  {
+    article {
+        background-color: yellow;
+        color: black;
+
+    }
+}
+
+@media screen and (max-width: 50rem) {
+    article {
+        background-color: yellow;
+        color: black;
+        border: 2px solid blue;
+
+    }
+}
