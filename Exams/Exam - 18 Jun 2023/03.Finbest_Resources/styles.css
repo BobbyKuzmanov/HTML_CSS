@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font: 18px/1.5 'Inter', sans-serif;
+}
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content:space-between;
+  padding: 1.5rem 5rem;
+  background-color: #ffffff; /* Adjust color as needed */
+}
+
+ nav .sign-up {
+  padding: 0.7rem 1.6rem;
+  border-radius: 8px ;
+  background-color: #ade2df; /* Replace with actual color */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000; /* Adjust color as needed */
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 4rem;
+  background-color: #ade2df; /* Replace with actual color */
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero p {
+  margin-bottom: 1.8rem;
+  font-size: 16px;
+}
+
+.download-buttons button {
+  margin-right: 0.5rem;
+  padding: 1rem 1rem;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000; /* Replace with actual color */
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Statistics section styles */
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f2f2f2; /* Replace with actual color */
+}
+
+.stat{
+  border-left: 1.7px solid #dbdbdb;
+  border-right: 1.7px solid #dbdbdb;
+  padding: 2rem;
+  text-align: center;
+  color: #000000;
+}
+
+.stat:first-child {
+  border-right: none;
+}
+
+.stat:last-child {
+  border-left: none;
+}
+
+.stat h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 550;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #ade2df; /* Replace with actual color */
+}
+
+.features .feature-text {
+  max-width: 600px;
+  font-size: 18px;
+}
+
+.features .feature-text h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.features .feature-text a i{
+  color: #333333;
+  margin-left: 10px;
+}
+
+.features .feature-text a {
+  color: #333333;
+}
+
+
+.features .feature-text h4{
+  margin-bottom: 0.5rem;
+}
+
+
+.features .feature-text p {
+  margin-bottom: 1.5rem;
+}
+
+.features .feature-image img {
+  max-width: 100%;
+  height: auto;
+  border-left: 1px solid darkgrey;
+  border-right: 1px solid darkgrey; 
+}
+
+/* Pricing plans section styles */
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f2f2f2; /* Replace with actual color */
+  border-radius: 8px;
+  
+}
+
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 100%;
+}
+
+.plan:last-child {
+  background-color: #ade2df;
+  
+}
+
+ .plan:last-child .last-btn{
+  background: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.plan p{
+  font-size: 16px;
+  margin-bottom: 0.2rem;
+}
+
+.plan h3 {
+  color: #333333; /* Adjust color as needed */
+}
+
+.plan h2 {
+  color: #333333; /* Adjust color as needed */
+  margin-bottom: 0.5rem; 
+  font-size: 2rem; 
+  border-bottom: 1px solid darkgrey;
+}
+
+.plan button {
+  margin-top: auto;
+  padding: 1rem 3rem;
+  background-color: #ade2df; /* Replace with actual color */
+  border-radius: 8px ;
+  margin-top: 2.5rem;
+
+}
+
+.plan .check-marks {
+  text-align: start;
+}
+
+/* Call to Action section styles */
+.cta {
+  text-align: center;
+  padding: 4rem;
+  background-color: #ade2df; /* Replace with actual color */
+}
+
+.cta p {
+  margin-bottom: 1.8rem;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  font-weight: 550;
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.cta button i {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  text-align: center;
+  padding: 1rem 3rem;
+  background-color: #ffffff; /* Adjust color as needed */
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.social-media i {
+  color: #000000;
+  font-size: 16px;
+
+}
+
+footer p {
+  color: #666666; /* Adjust color as needed */
+}
